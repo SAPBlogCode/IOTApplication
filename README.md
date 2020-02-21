@@ -153,7 +153,7 @@ Select __‘Capabilities’__ under __‘Device Management’__, click on icon _
 
 A new screen will be opened. Enter a suitable capability __Name, Alternate Id__ in __General Information section__ and click on icon __‘+’__ in __Properties section__ to add properties as per your requirement. Add property __Name and Data Type__ as shown in below screen. 
 
-![Screenshot](images/WorkCapabilityCreationspace.png)
+![Screenshot](images/CapabilityCreation.png)
 
 Press footer bar button __‘Create’__. A confirmation popup will appear, click on button __‘Confirm’__. 
 
