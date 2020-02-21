@@ -1,0 +1,46 @@
+<mvc:View controllerName="iot.app.IoTApplication.controller.Main" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:semantic="sap.m.semantic">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<semantic:FullscreenPage title="IOT Sensor Data" navButtonPress="onNavBack" showNavButton="false">
+					<semantic:content>
+						<Table width="100%" 
+						       id="idVibrationTableSensorTable"
+							   items="{IoTSensorModel>/Data}" 
+							   sticky="ColumnHeaders,HeaderToolbar" 
+							   enableBusyIndicator="true">
+							<columns>
+								<Column>
+									<Text text="Date"/>
+								</Column>
+								<Column>
+									<Text text="Vibration(hz)"/>
+								</Column>
+								<Column>
+									<Text text="Temperature(°C)"/>
+								</Column>
+								<Column>
+									<Text text="Humidity(%)"/>
+								</Column>
+								<Column>
+									<Text text="Battery(%)"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<ObjectIdentifier title="{path:'IoTSensorModel>timestamp',type:'sap.ui.model.type.DateTime',formatOptions:{style:'medium'}}"/>
+										<Text text="{IoTSensorModel>measure/vibration}"/>
+										<Text text="{IoTSensorModel>measure/temperature}"/>
+										<Text text="{IoTSensorModel>measure/humidity}"/>
+										<Text text="{IoTSensorModel>measure/battery}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</semantic:content>
+				</semantic:FullscreenPage>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
