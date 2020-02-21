@@ -1,19 +1,24 @@
 ## Enablement of SAP IoT Service in Cloud Foundry environment on SAP Cloud Platform: -
 
 * Open [SAP Cloud Platform Cockpit](https://account.hana.ondemand.com/) and register yourself, if you have already registered then logon with your user credential. 
-![Screenshot](images/Image1.png)
+
+![Screenshot](images/SCP.png)
 
 * If you work in an enterprise account, add quotas to the services you purchased in your subaccount to make them visible on the Service Marketplace. If you don’t have any enterprise account, click on __‘Trial Home’__. It will navigate you to default global account __‘I/S/C Number + trial’__, add quotas to the services you purchased in your subaccount.
 
+![Screenshot](images/GlobalAccount.png)
 
 * Click on button __‘New Subaccount’__. A popup will appear. Fill the details for new subaccount as shown in below screen shot and click button __‘Create’__.
 
+![Screenshot](images/SubAccount.png)
 
 * A New subaccount is created. Click on newly created subaccount. Click on button __‘Enable Cloud Foundry’__. 
 
+![Screenshot](images/EnableCloudFoundry.png)
 
 * There would be a popup for __‘Organization Name’__ which will have default name  __‘<Global account name>_<Subaccount name>__.
-  
+
+![Screenshot](images/CreateSpace.png)  
   
 * On press button __‘Create’__, It will create a new Cloud Foundry Organization with filled name. Now click on button __‘Create Space’__.
 
