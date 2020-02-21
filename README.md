@@ -307,7 +307,7 @@ Open __Main.controller.js__ file.
 
 Add code as shown in below screenshot to get data IoT data. 
 
-![Screenshot](images/UpdatedmainController.png)
+![Screenshot](images/UpdatedMainController.png)
 
 Right click on project and press __Run -> Run as Web Application__. 
 
