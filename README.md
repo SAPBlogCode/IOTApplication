@@ -4,7 +4,8 @@ Open [SAP Cloud Platform Cockpit](https://account.hana.ondemand.com/) and regist
 
 ![Screenshot](images/SCP.png)
 
-If you work in an enterprise account, add quotas to the services you purchased in your subaccount to make them visible on the Service Marketplace. If you don’t have any enterprise account, click on __‘Trial Home’__. It will navigate you to default global account __‘I/S/C Number + trial’__, add quotas to the services you purchased in your subaccount.
+Click on Global productive account. User has to provide quota to services, purchased in the sub-account, to make them available.
+__'Note:- IoT services in cloud foundry environment are only available for productive accounts.'__
 
 ![Screenshot](images/GlobalAccount.png)
 
